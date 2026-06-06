@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Se você usar este código, cite a dissertação associada."
+authors:
+  - family-names: Fernandes
+    given-names: Daniel
+title: >
+  Modelagem espacial multiescalas para a proteção de Povos Indígenas Isolados
+  da Amazônia
+type: thesis
+institution:
+  name: >
+    Programa de Pós-Graduação em Ecologia, Conservação e Manejo
+    da Vida Silvestre, Universidade Federal de Minas Gerais
+city: Belo Horizonte
+country: BR
+year: 2026
