@@ -75,6 +75,7 @@ Este projeto trata de Povos Indígenas Isolados. A Política do Não-Contato, a 
 ### Como citar
 
 FERNANDES, Daniel. Modelagem espacial multiescalas para a proteção de Povos Indígenas Isolados da Amazônia. 2026. Dissertação (Mestrado em Ecologia, Conservação e Manejo da Vida Silvestre) — Instituto de Ciências Biológicas, Universidade Federal de Minas Gerais, Belo Horizonte, 2025.
+
 ---
 ### Licença:
 CC BY-NC-SA 4.0
