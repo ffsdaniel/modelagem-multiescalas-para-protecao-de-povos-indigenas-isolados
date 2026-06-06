@@ -1,0 +1,12 @@
+Termo,Estimativa,Erro,Z_valor,P_valor,IC_inferior,IC_superior,Termo_Limpo,Significancia,Termo_Ordenado
+log_area,-0.005,0.003307157,-142.353.504.991.713,0.15458,-0.01119,0.00177,Log(Área),Não Significativo,Log(Área)
+Dens_Borda,0.010,0.007066339,143.530.592.662.481,0.15120,-0.00371,0.02399,Densidade de Borda,Não Significativo,Densidade de Borda
+CategoriaFloresta,0.036,0.02589902,138.831.707.313.991,0.16504,-0.01481,0.08672,Floresta,Não Significativo,Floresta
+CategoriaParque,0.001,0.023051507,0.027832271,0.97780,-0.04454,0.04582,Parque,Não Significativo,Parque
+CategoriaReserva Biológica,0.014,0.035838804,0.380646485,0.70347,-0.05660,0.08389,Reserva Biológica,Não Significativo,Reserva Biológica
+CategoriaReserva de Desenvolvimento Sustentável,-0.051,0.054748266,-0.924111705,0.35543,-0.15790,0.05671,Reserva de Desenvolvimento Sustentável,Não Significativo,Reserva de Desenvolvimento Sustentável
+CategoriaReserva Extrativista,0.023,0.022211542,104.862.025.931.046,0.29435,-0.02024,0.06683,Reserva Extrativista,Não Significativo,Reserva Extrativista
+Sobreposicao_TI1,-0.038,0.018275208,-206.182.278.883.657,0.03922,-0.07350,-0.00186,Sobreposição TI (Sim),Reduz Ameaça,Sobreposição TI (Sim)
+Arpa1,-0.029,0.018667077,-155.981.455.599.903,0.11880,-0.06570,0.00747,ARPA (Sim),Não Significativo,ARPA (Sim)
+Nota_Efetividade,-0.267,0.117088934,-227.959.385.358.079,0.02263,-0.49641,-0.03742,Nota de Efetividade,Reduz Ameaça,Nota de Efetividade
+Nota_Insumos,0.218,0.065530626,333.417.301.295.036,0.00086,0.09005,0.34693,Nota de Insumos,Aumenta Ameaça,Nota de Insumos
