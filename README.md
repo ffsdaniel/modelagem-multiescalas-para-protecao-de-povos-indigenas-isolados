@@ -54,6 +54,28 @@ documentos
 | Desvio-padrão | `03_sensibilidade_montecarlo/standard_deviation.egomlx` · `stdev.R` | mapa de incerteza e histograma |
 
 ---
+### Como usar
+
+**Scripts R**. Com excessão de `SAC.R` > `grafico_forest.R` todos outros scripts R são independentes.
+**R** versão 4.5.1
+Pacotes: 
+```r
+
+   install.packages(c("terra","sf","exactextractr","spatialreg","spdep","car","ENMeval","scico","ggplot2","ggridges","readr","readxl","dplyr","tidyr"))
+```
+**Modelos Dinamica EGO.** Os arquivos `.egoml`/`.egomlx` executam dentro do  Dinamica EGO:
+
+1. Abra o `.egomlx` no Dinamica EGO (8.11)
+2. Nos funtores de entrada (*Load Map* e *Load Categorical Map*), aponte o caminho para o arquivo local
+3. Execute o modelo. 
+
+---
+### Ética
+
+Este projeto trata de Povos Indígenas Isolados. A Política do Não-Contato, a Convenção 169 da OIT (Consentimento Livre, Prévio e Informado) e as regras da FUNAI/CGIIRC impedem a disponibilidade de dados sensíveis. Este repositório só apresenta os códigos de análise e geração de gráficos. 
+
+
+---
 ### Como citar
 
 ---
