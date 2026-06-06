@@ -6,10 +6,6 @@ Repositório de scripts da dissertação de mestrado no Programa de Pós-Gradua�
 Autor: Daniel Fernandes
 
 2026
-
----
-### Resumo 
-
 ---
 ### Estrutura
 
@@ -80,4 +76,4 @@ Este projeto trata de Povos Indígenas Isolados. A Política do Não-Contato, a 
 
 ---
 ### Licença:
-
+CC BY-NC-SA 4.0
