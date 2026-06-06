@@ -26,9 +26,27 @@ Autor: Daniel Fernandes
 └── tabelas/                      # tabelas de construcao de gráfico
 ---
 ### Capítulo 1
+| Etapa | Arquivo | Uso |
+|-------|-----------------|------------|
+| Preparo de variáveis | `01_pca_irpii/1_variable_preparation.egomlx` | distâncias, `ln(d+1)` e normalização |
+| PCA | `01_pca_irpii/2_pca.egomlx` | análise de componentes principais |
+| Soma ponderada | `01_pca_irpii/3_sum_of_pcs.egomlx` |  IRPII |
+| Teste de normalidade | `01_pca_irpii/4_normality_test_submodel.egomlx` |  diagnóstico |
+| Modelo SAC | `02_modelo_sac/SAC.R` | R (`spatialreg`, `spdep`) | teste estatístico |
+| Forest plot | `02_modelo_sac/grafico_forest.R` · `grafico_forest_en.R` | gráfico |
+| Heatmap dos PCs | `02_modelo_sac/heatmap.R` | gráfico |
+
 
 ---
 ### Capítulo 2
+| Etapa | Arquivo | Uso |
+|-------|-----------------|------------|
+| Preparo Sentinel-2 | `01_classificacao_uso_cobertura/01_prepare_variables_sentinel2a.egomlx` |calcula os índices (NDVI, NDRE, NDWI, NBR) |
+| Random Forest | `01_classificacao_uso_cobertura/02_random_forest.egomlx` | classificação usando geopackage e calcula índices de acurácia |
+| Nicho ecológico | `02_nicho_maxent/maxent.egomlx` · `maxent.sh` |adequabilidade de habitat e curvas de resposta |
+| Multicolinearidade | `03_sensibilidade_montecarlo/multicolinearity.R` | testa VIF |
+| Cenários estocásticos | `03_sensibilidade_montecarlo/simulate_stochastic_scenarios.egomlx` | 501 simulações de Cenários estocásticos |
+| Desvio-padrão | `03_sensibilidade_montecarlo/standard_deviation.egomlx` · `stdev.R` | mapa de incerteza e histograma |
 
 ---
 ### Como citar
