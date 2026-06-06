@@ -12,28 +12,23 @@ Autor: Daniel Fernandes
 
 ---
 ### Estrutura
-.
-├── README.md
 
-├── LICENSE                       # licença CC BY NC 4.0
+README.md
+LICENSE                       # licença CC BY NC 4.0
+capitulo-1-irpii/
 
-├── capitulo-1-irpii/
+    01_pca_irpii/             # preparo de variáveis, PCA, soma ponderada e teste de normalidade
+    02_modelo_sac/            # modelo SAC, forest plot e heatmap dos PCs
 
-    ├── 01_pca_irpii/             # preparo de variáveis, PCA, soma ponderada e teste de normalidade
+capitulo-2-katawixi/
 
-    └── 02_modelo_sac/            # modelo SAC, forest plot e heatmap dos PCs
+    01_classificacao_uso_cobertura/   # preparo Sentinel-2 + Random Forest
+    02_nicho_maxent/                  # nicho de B. excelsa
+    03_sensibilidade_montecarlo/      # Monte Carlo, VIF, desvio-padrão
 
-├── capitulo-2-katawixi/
+figuras/                      # figuras de gráficos
 
-    ├── 01_classificacao_uso_cobertura/   # preparo Sentinel-2 + Random Forest
-
-    ├── 02_nicho_maxent/                  # nicho de B. excelsa
-
-    └── 03_sensibilidade_montecarlo/      # Monte Carlo, VIF, desvio-padrão
-
-├── figuras/                      # figuras de gráficos
-
-└── tabelas/                      # tabelas de construcao de gráfico
+tabelas/                      # tabelas de construcao de gráfico
 
 ---
 ### Capítulo 1
