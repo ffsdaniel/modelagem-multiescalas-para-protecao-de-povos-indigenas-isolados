@@ -57,7 +57,7 @@ documentos
 Pacotes: 
 ```r
 
-   install.packages(c("terra","sf","exactextractr","spatialreg","spdep","car","ENMeval","scico","ggplot2","ggridges","readr","readxl","dplyr","tidyr"))
+   install.packages(c("terra","sf","exactextractr","spatialreg","spdep","car","ENMeval","scico","ggplot2","ggridges","readr","readxl","dplyr","tidyr","bblme"))
 ```
 **Modelos Dinamica EGO.** Os arquivos `.egoml`/`.egomlx` executam dentro do  Dinamica EGO:
 
