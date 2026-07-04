@@ -1,22 +1,20 @@
 library(terra)
-library(car)
+library(usdm)
 
 variaveis <- c(
-  "data/VAR_CASTANHEIRA.tif",
-  "data/VAR_DISTANCIA_DE_PALHAL.tif",
-  "data/VAR_INDICE.tif"
+  "/mnt/ssd/Mestrado/Capítulo 2/database/katawixi_sensibility_model/var/bertholletia_excelsa.tif",
+  "/mnt/ssd/Mestrado/Capítulo 2/database/katawixi_sensibility_model/var/distance_to_palm_forest.tif",
+  "/mnt/ssd/Mestrado/Capítulo 2/database/katawixi_sensibility_model/var/exclusion_zones.tif"
 )
 
 stack <- rast(variaveis)
 names(stack) <- c("Castanheira", "Dist_Palhal", "IRPII")
-
-set.seed(42)
+#amostra / sample
+set.seed(42) 
 dados_amostra <- spatSample(stack, size = 10000, method = "random", na.rm = TRUE)
 
 print(cor(dados_amostra))
-
-modelo_vif <- lm(Castanheira ~ Dist_Palhal + IRPII, data = as.data.frame(dados_amostra))
-# vif
-vif_resultados <- vif(modelo_vif)
+#vif 
+vif_resultados <- vif(as.data.frame(dados_amostra))
 
 print(vif_resultados)
