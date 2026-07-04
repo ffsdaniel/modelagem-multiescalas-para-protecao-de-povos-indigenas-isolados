@@ -14,7 +14,7 @@ plot = ggplot(data = dados, mapping = aes(x = values, y = Relative_Frequencies, 
   geom_line() +
   scale_color_scico(palette = "batlow") +
   xlim(2.400e-08, 0.12) +
-  theme_minimal() +
+  theme_minimal(base_family = "serif") +
   theme(axis.title.x = element_text(size = 18),
         axis.title.y = element_text(size = 18),
         axis.text.x = element_text(size = 16),
