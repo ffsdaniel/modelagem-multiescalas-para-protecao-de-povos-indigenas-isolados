@@ -18,7 +18,7 @@ data_longa <- data %>%
 
 # Heatmap
 ggplot(data_longa, aes(x = Componente, y = reorder(Nome, Valor), fill = Valor)) +
-  theme_minimal() +
+  theme_minimal(base_family = "serif") +
   scale_fill_scico(palette = "managua", direction = -1) + #paleta managua <3  
   labs(y = "Unidades de Conservação", title = "Heatmap de Principais Componentes",
        caption = "Valores maiores indicam maior ameaça") +
