@@ -45,7 +45,7 @@ forest_plot <- ggplot(plot_data, aes(x = Estimativa, y = reorder(Termo_Limpo, Es
     y = NULL,
     color = "Significância"
   ) +
-  theme_minimal() +
+  theme_minimal(base_family = "serif") +
   theme(
     text = element_text(family = "serif", size = 16),
     plot.title = element_text(face = "bold", size = 16),
